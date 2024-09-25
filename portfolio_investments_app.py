@@ -1,11 +1,17 @@
 from shiny import reactive, render
 from shiny.express import input, ui
 from shinywidgets import render_plotly
+import shinyswatch
+
+## Application settings
+ #lumen lux pulse slate zephyr
 
 # Add page title and sidebar
-ui.page_opts(title="Gestor de Carteras de Inversiones", fillable=True)
+ui.page_opts(title="Gestor de Carteras de Inversiones", fillable=True, theme=shinyswatch.theme.lux)
 
 with ui.sidebar(open="desktop"):
+    
+    ui.input_dark_mode()
     
     # date selector
     ui.input_date(id="date", label="Fecha")
