@@ -7,7 +7,7 @@ import shinyswatch
  #lumen lux pulse slate zephyr
 
 # Add page title and sidebar
-ui.page_opts(title="Gestor de Carteras de Inversiones", fillable=True, theme=shinyswatch.theme.lux)
+ui.page_opts(title="Gestor de Carteras de Inversiones", fillable=True)
 
 with ui.sidebar(open="desktop"):
     
