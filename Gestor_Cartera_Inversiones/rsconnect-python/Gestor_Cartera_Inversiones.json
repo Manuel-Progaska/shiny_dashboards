@@ -1,0 +1,12 @@
+{
+    "https://api.shinyapps.io": {
+        "server_url": "https://api.shinyapps.io",
+        "filename": "/Users/manuel/Documents/00. Proyectos/shiny_dashboards/Gestor_Cartera_Inversiones",
+        "app_url": "https://mpro-quant.shinyapps.io/risk_portfolio_manager1/",
+        "app_id": 12865541,
+        "app_guid": null,
+        "title": "Risk Portfolio Manager",
+        "app_mode": "python-shiny",
+        "app_store_version": 1
+    }
+}
